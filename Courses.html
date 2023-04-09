@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+    <link rel="manifest" href="logo/site.webmanifest">
+    <script src="Courses.js"></script>
+    <title>Courses</title>
+</head>
+
+<body class="bg-gradient-to-t bg-slate-900 ">
+    <main>
+        <div class="text-center flex text-white m-10 text-4xl">
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="home()" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-8 text-slate-500 cursor-pointer hover:text-white" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            <p class="ml-[43%]">Courses</p>
+        </div>
+        <p class=" text-2xl m-8 text-slate-400 p-2">Programming Languages</p>
+        <section class="flex m-8">
+            <a class="text-3xl w-1/3  rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center cursor-pointer"><img src="./images/java_logo.png" alt="" class="w-32 mx-auto">
+                <p class="text-xl  text-gray-600">Java Course For Beginners</p>
+                <p class="text-left text-lg text-gray-400 m-2">If you don't know programming and want to start your career by learning Java as your first language, you can start with this course as it is for absolute beginners.</p>
+                <input type="button" value="Start" onclick="java()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800  text-gray-700 text-center cursor-pointer"><img src="./images/c_logo.png" alt="" class="w-20 mt-2 mx-auto">
+                <p class="text-xl text-gray-600">C Language Course For Beginners</p>
+                <p class="text-left text-lg text-gray-400 m-2">Even if you don't know the ABC of coding, start this course, and I can assure you that you'll be an intermediate-level coder after completion. Get started with C language.</p>
+                <input type="button" value="Start" onclick="ccourse()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800  text-gray-700 text-center cursor-pointer"><img src="./images/python_logo.png" alt="" class="w-28 mx-auto">
+                <p class="text-xl text-gray-600">Python Course</p>
+                <p class="text-left text-lg text-gray-400 m-2">Python is one of the most demanded programming languages in the job market. Surprisingly, it is equally easy to learn and master Python.</p>
+                <input type="button" value="Start" onclick="pycourse()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+        </section>
+        <p class="text-2xl m-8 text-slate-400 p-2 ">Web Development</p>
+        <section class="flex m-8">
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800  text-gray-700 text-center cursor-pointer"><img src="./images/html_logo.png" alt="" class="w-32 mx-auto">
+                <p class="text-xl text-gray-600">HTML Course</p>
+                <p class="text-left text-lg text-gray-400 m-2">This is one of my favorite courses. In this series, you'll learn about HTML and new tags that are introduced. Just hop on, man.</p>
+                <input type="button" value="Start" onclick="htmlcourse()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl text-white cursor-pointer px-5 py-1 bg-slate-500 rounded-lg ">
+            </a>
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800  text-gray-700 text-center cursor-pointer"><img src="./images/css_logo.png" alt="" class="w-44 -mt-3 mx-auto">
+                <p class="text-xl -mt-3 text-gray-600">CSS Course</p>
+                <p class="text-left text-lg text-gray-400 m-2">This is one of my favorite courses. In this series, you'll learn about CSS and new tags that are introduced. Just hop on, man.</p>
+                <input type="button" value="Start" onclick="csscourse()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl text-white cursor-pointer px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800  text-gray-700 text-center cursor-pointer"><img src="./images/js_logo.png" alt="" class="w-32 mx-auto m-4">
+                <p class="text-xl m-2 text-gray-600">Javascript Course</p>
+                <p class="text-left text-lg text-gray-400 m-2">This latest JavaScript course comes with premium curriculum that covers everything from basics to advance. </p>
+                <input type="button" value="Start" onclick="jscourse()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl text-white cursor-pointer px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+
+        </section>
+        <section class="flex m-8">
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800  text-gray-700 text-center cursor-pointer"><img src="./images/react_logo.png" alt="" class="w-28 mx-auto">
+                <p class="text-xl m-2 text-gray-600">React JS Course</p>
+                <p class="text-left text-lg text-gray-400 m-2">React is a free and open-source front-end JavaScript library. This series will cover React from starting to the end. </p>
+                <input type="button" value="Start" onclick="reactcourse()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl text-white cursor-pointer px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800  text-gray-700 text-center cursor-pointer"><img src="./images/nodejs_logo.png" alt="" class="w-32 -mt-2 mx-auto">
+                <p class="text-xl m-0 text-gray-600">Node JS Course</p>
+                <p class="text-left text-lg text-gray-400 m-2">Node JS is a free and open-source server-side JavaScript library. This series will cover Node JS from starting to the end. </p>
+                <input type="button" value="Start" onclick="nodejscourse()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl text-white px-5 py-1 cursor-pointer bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t  text-center cursor-pointer">
+            </a>
+        </section>
+        <p class="text-2xl m-8 text-slate-400 p-2 ">Other</p>
+        <section class="flex m-8">
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800  text-gray-700 text-center cursor-pointer" onclick="react()"><img src="./images/sql_logo.png" alt="" class="w-28 mx-auto">
+                <p class="text-xl m-2 text-gray-600">SQL Course</p>
+                <p class="text-left text-lg text-gray-400 m-2">SQL is a structured query language. This course will cover all the database related topics and storing of data.</p>
+                <input type="button" onclick="sqlcourse()" value="Start" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl text-white cursor-pointer px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t to-indigo-900 from-slate-800  text-gray-700 text-center cursor-pointer"><img src="./images/ds_logo.png" alt="" class="w-40 mt-6  mx-auto">
+                <p class="text-xl m-0 text-gray-600">Data Structures Course</p>
+                <p class="text-left text-lg text-gray-400 m-2">Data Structures is a very important concept reagrding placements. In this course, we will cover all the data structures. </p>
+                <input type="button" onclick="dscourse()" value="Start" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl text-white cursor-pointer px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/3 rounded-2xl m-3 p-8 bg-gradient-to-t  text-center cursor-pointer">
+            </a>
+        </section>
+
+    </main>
+</body>
+
+</html>

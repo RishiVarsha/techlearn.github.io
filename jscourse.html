@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Course</title>
+    <script src="javacourse.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+    <link rel="manifest" href="logo/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-t bg-slate-900 ">
+    <main>
+
+        <div class="text-center flex text-white m-10 text-4xl">
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="back()" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-8 text-slate-500 cursor-pointer hover:text-white" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            <p class="ml-[550px]">Let's learn Javascript</p>
+        </div>
+        <div class="flex h-96 justify-end">
+            <div class="ml-3" id="iframes">
+                <iframe width="1000" id="iframe1" height="560" src="https://www.youtube.com/embed/B7wHpNUUT4Y" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe2" height="560" class="hidden" src="https://www.youtube.com/embed/j8fubBAFq_I" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe3" height="560" class="hidden" src="https://www.youtube.com/embed/2lRQTdpwhFk" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe4" height="560" class="hidden" src="https://www.youtube.com/embed/hRaDYCHqFQQ" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe5" height="560" class="hidden" src="https://www.youtube.com/embed/zSt-KI0HryY" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe6" height="560" class="hidden" src="https://www.youtube.com/embed/sTk5BxgxDDI" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe7" height="560" class="hidden" src="https://www.youtube.com/embed/VsEfh-EqNT8" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe8" height="560" class="hidden" src="https://www.youtube.com/embed/7xgJmIOG8GE" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe9" height="560" class="hidden" src="https://www.youtube.com/embed/5kY4Th53w70" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe10" height="560" class="hidden" src="https://www.youtube.com/embed/0hQPN4OQgU4" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe11" height="560" class="hidden" src="https://www.youtube.com/embed/vCZqAriaPZw" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe12" height="560" class="hidden" src="https://www.youtube.com/embed/vldRjjbcRXc" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe13" height="560" class="hidden" src="https://www.youtube.com/embed/4RjmmZnDFVA" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe14" height="560" class="hidden" src="https://www.youtube.com/embed/LgZZLeWKGsI" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe15" height="560" class="hidden" src="https://www.youtube.com/embed/xw0J0v3Zkuo" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe16" height="560" class="hidden" src="https://www.youtube.com/embed/0QSSUHTJ-sU" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe17" height="560" class="hidden" src="https://www.youtube.com/embed/QrFYRTcKXAU" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe18" height="560" class="hidden" src="https://www.youtube.com/embed/XrAyzuNanZo" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe19" height="560" class="hidden" src="https://www.youtube.com/embed/GXONlNAnmNU" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe20" height="560" class="hidden" src="https://www.youtube.com/embed/7n8kPBPzy5I" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe21" height="560" class="hidden" src="https://www.youtube.com/embed/101q0HoCDKs" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe22" height="560" class="hidden" src="https://www.youtube.com/embed/aHPK2rsonZA" allow=" autoplay; "></iframe>
+
+            </div>
+            <div id="container" class="overflow-y-scroll m-2 flex h-[550px] justify-end ">
+                <ul class=" ">
+                    <li onclick="showIframe('iframe1')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Javascript Introduction | Lecture 1 </li>
+                    <li onclick="showIframe('iframe2')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Javascript - First Program Namaste World | Lecture 2</li>
+                    <li onclick="showIframe('iframe3')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">How JavaScript Works ? | Javascript - Lecture 3 </li>
+                    <li onclick="showIframe('iframe4')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">What is DOM (Document Object Model) ? | Javascript Lecture 4</li>
+                    <li onclick="showIframe('iframe5')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Ways to add JavaScript to Web Pages? JavaScript : Lecture 5 </li>
+                    <li onclick="showIframe('iframe6')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Javascript | Lecture 6,7 & 8 Combined </li>
+                    <li onclick="showIframe('iframe7')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Javascript | Lecture 9 & 10 combined | If else and switch statements </li>
+                    <li onclick="showIframe('iframe8')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Loops in Javascript | Javascript- Lecture 11</li>
+                    <li onclick="showIframe('iframe9')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Basics of Functions in Javascript | Javascript - Lecture 12</li>
+                    <li onclick="showIframe('iframe10')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Strings in Javascript | Lecture 13 & 14</li>
+                    <li onclick="showIframe('iframe11')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Reference Datatypes in JavaScript | Javascript Lecture 17</li>
+                    <li onclick="showIframe('iframe12')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Javascript : Top 10 Websites to practice | Lecture 18</li>
+                    <li onclick="showIframe('iframe13')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Coercion and Type Conversion | Javascript - Lecture 19 </li>
+                    <li onclick="showIframe('iframe14')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Everything about Objects | Javascript Lecture - 20</li>
+                    <li onclick="showIframe('iframe15')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Objects Exercise | JavaScript | Lecture 21 </li>
+                    <li onclick="showIframe('iframe16')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">What is a Class? Javascript Lecture 22</li>
+                    <li onclick="showIframe('iframe17')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Everything about Arrays | Javascript Lecture 23 </li>
+                    <li onclick="showIframe('iframe18')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">How code gets executed in JavaScript? | Lecture 25</li>
+                    <li onclick="showIframe('iframe19')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Exercise for array | Lecture 24 | Javascript</li>
+                    <li onclick="showIframe('iframe20')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Scope in Javascript | In Depth</li>
+                    <li onclick="showIframe('iframe21')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">What is Hoisting? | Javascript </li>
+                    <li onclick="showIframe('iframe22')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">What is this keyword? | Javascript </li>
+
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

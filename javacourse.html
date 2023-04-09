@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Courses</title>
+    <script src="javacourse.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+    <link rel="manifest" href="logo/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-t bg-slate-900 ">
+    <main>
+
+        <div class="text-center flex text-white m-10 text-4xl">
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="back()" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-8 text-slate-500 cursor-pointer hover:text-white" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            <p class="ml-[550px]">Let's learn JAVA</p>
+        </div>
+        <div class="flex h-96 justify-end">
+            <div class="ml-3" id="iframes">
+                <iframe width="1000" id="iframe1" height="560" src="https://www.youtube.com/embed/yRpLlJmRo2w" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe2" height="560" class="hidden" src="https://www.youtube.com/embed/LusTv0RlnSU" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe3" height="560" class="hidden" src="https://www.youtube.com/embed/I5srDu75h_M" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe4" height="560" class="hidden" src="https://www.youtube.com/embed/0r1SfRoLuzU" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe5" height="560" class="hidden" src="https://www.youtube.com/embed/GjHNGM7KN3w" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe6" height="560" class="hidden" src="https://www.youtube.com/embed/Dr4PpNa7AYo" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe7" height="560" class="hidden" src="https://www.youtube.com/embed/qcSz4ef9UHA" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe8" height="560" class="hidden" src="https://www.youtube.com/embed/pFPZ83mgH00" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe9" height="560" class="hidden" src="https://www.youtube.com/embed/bQssdSrSGNE" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe10" height="560" class="hidden" src="https://www.youtube.com/embed/NTHVTY6w2Co" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe11" height="560" class="hidden" src="https://www.youtube.com/embed/18Zt5I4S45o" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe12" height="560" class="hidden" src="https://www.youtube.com/embed/vCRD36bG8xQ" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe13" height="560" class="hidden" src="https://www.youtube.com/embed/ZLDwskEhIFg" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe14" height="560" class="hidden" src="https://www.youtube.com/embed/Oud4alVQU4s" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe15" height="560" class="hidden" src="https://www.youtube.com/embed/OSoO8eCEEC8" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe16" height="560" class="hidden" src="https://www.youtube.com/embed/PkJIc5tBRUE" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe17" height="560" class="hidden" src="https://www.youtube.com/embed/5Boqfjissv0" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe18" height="560" class="hidden" src="https://www.youtube.com/embed/u-HgzgYe8KA" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe19" height="560" class="hidden" src="https://www.youtube.com/embed/xZykmhcWGuY" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe20" height="560" class="hidden" src="https://www.youtube.com/embed/bRs6E_SL2Tk" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe21" height="560" class="hidden" src="https://www.youtube.com/embed/tRj4VlVTat8" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe22" height="560" class="hidden" src="https://www.youtube.com/embed/unxAnJBy12Q" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe23" height="560" class="hidden" src="https://www.youtube.com/embed/QXum8HQd_l4" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe24" height="560" class="hidden" src="https://www.youtube.com/embed/bSrm9RXwBaI" allow=" autoplay; "></iframe>
+            </div>
+            <div id="container" class="overflow-y-scroll m-2 flex h-[550px] justify-end ">
+                <ul class=" ">
+                    <li onclick="showIframe('iframe1')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Introduction to Java Language | Lecture 1 | Complete Placement Course</li>
+                    <li onclick="showIframe('iframe2')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Variables in Java | Input Output | Complete Placement Course | Lecture 2</li>
+                    <li onclick="showIframe('iframe3')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Conditional Statements | If-else, Switch Break | Complete Placement Course - Lecture 3</li>
+                    <li onclick="showIframe('iframe4')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Loops in Java | Complete Placement Course - Lecture 4</li>
+                    <li onclick="showIframe('iframe5')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">9 Best Patterns Questions In Java (for Beginners) | Complete Placement Course - Lecture 5</li>
+                    <li onclick="showIframe('iframe6')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Advanced Pattern Questions | Java | Complete Placement Course - Lecture 6</li>
+                    <li onclick="showIframe('iframe7')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Functions & Methods | Java Complete Placement Course | Lecture 7</li>
+                    <li onclick="showIframe('iframe8')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Functions in Java | Practice Questions | Complete Placement Course | Lecture 8</li>
+                    <li onclick="showIframe('iframe9')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Basics of Time Complexity and Space Complexity | Java | Complete Placement Course | Lecture 9</li>
+                    <li onclick="showIframe('iframe10')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Arrays Introduction | Java Complete Placement Course | Lecture 10</li>
+                    <li onclick="showIframe('iframe11')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">2D Arrays | Java Complete Placement Course | Lecture 11</li>
+                    <li onclick="showIframe('iframe12')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Strings | Lecture 12 | Java Placement Series</li>
+                    <li onclick="showIframe('iframe13')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">String Builder | Java Placement Course Lecture 13 </li>
+                    <li onclick="showIframe('iframe14')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Operators & Binary Number System | Java Lecture 14</li>
+                    <li onclick="showIframe('iframe15')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Bit Manipulation | Java Placement Course | Lecture 15</li>
+                    <li onclick="showIframe('iframe16')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Sorting in Java | Bubble Sort, Selection Sort & Insertion Sort | Java Placement Course</li>
+                    <li onclick="showIframe('iframe17')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Recursion in One Shot | Theory + Question Practice + Code | Level 1 - Easy</li>
+                    <li onclick="showIframe('iframe18')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Recursion in One Shot | 9 Best Problems</li>
+                    <li onclick="showIframe('iframe19')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Recursion One Shot - Advanced Level Questions | Placement (Tech)</li>
+                    <li onclick="showIframe('iframe20')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Backtracking | N Queens Problem | Permutations | The Java Placement Course</li>
+                    <li onclick="showIframe('iframe21')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Java Sudoku Solver | Backtracking | Java Placement Course</li>
+                    <li onclick="showIframe('iframe22')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Merge Sort | For Beginners | Java Placement Course</li>
+                    <li onclick="showIframe('iframe23')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Quick Sort For Beginners | Java Placement Course</li>
+                    <li onclick="showIframe('iframe24')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Java OOPs in One Shot | Object Oriented Programming | Java Language | Placement Course</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

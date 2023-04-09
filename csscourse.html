@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Course</title>
+    <script src="javacourse.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+    <link rel="manifest" href="logo/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-t bg-slate-900 ">
+    <main>
+
+        <div class="text-center flex text-white m-10 text-4xl">
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="back()" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-8 text-slate-500 cursor-pointer hover:text-white" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            <p class="ml-[550px]">Let's learn CSS</p>
+        </div>
+        <div class="flex h-96 justify-end">
+            <div class="ml-3" id="iframes">
+                <iframe width="1000" id="iframe1" height="560" src="https://www.youtube.com/embed/sqJ6xZ9mUwE" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe2" height="560" class="hidden" src="https://www.youtube.com/embed/4nC4VXHlys8" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe3" height="560" class="hidden" src="https://www.youtube.com/embed/C01LeeMhwHc" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe4" height="560" class="hidden" src="https://www.youtube.com/embed/wKPlQkOdpFQ" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe5" height="560" class="hidden" src="https://www.youtube.com/embed/6Cpd63_WXdI" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe6" height="560" class="hidden" src="https://www.youtube.com/embed/bgKYobOXTZ0" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe7" height="560" class="hidden" src="https://www.youtube.com/embed/l-EkcthUMl4" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe8" height="560" class="hidden" src="https://www.youtube.com/embed/p870o46o1bM" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe9" height="560" class="hidden" src="https://www.youtube.com/embed/2WMRDUS_b4E" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe10" height="560" class="hidden" src="https://www.youtube.com/embed/xpoWxFyGuC8" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe11" height="560" class="hidden" src="https://www.youtube.com/embed/lcPs2BbbI_M" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe12" height="560" class="hidden" src="https://www.youtube.com/embed/D_YpGeDy-i8" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe13" height="560" class="hidden" src="https://www.youtube.com/embed/zts6uNVnCNs" allow="autoplay;"></iframe>
+                <iframe width="1000" id="iframe14" height="560" class="hidden" src="https://www.youtube.com/embed/OGkaHOD6CRU" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe15" height="560" class="hidden" src="https://www.youtube.com/embed/hFvf0iPOjT8" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe16" height="560" class="hidden" src="https://www.youtube.com/embed/eKtwlzRyuIc" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe17" height="560" class="hidden" src="https://www.youtube.com/embed/xBSlwwitD5U" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe18" height="560" class="hidden" src="https://www.youtube.com/embed/8imJZHgf44E" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe19" height="560" class="hidden" src="https://www.youtube.com/embed/KhPJ5xF4gIk" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe20" height="560" class="hidden" src="https://www.youtube.com/embed/Xdhdgl0Ju4k" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe21" height="560" class="hidden" src="https://www.youtube.com/embed/IZa8pbR8CWs" allow=" autoplay; "></iframe>
+                <iframe width="1000" id="iframe22" height="560" class="hidden" src="https://www.youtube.com/embed/ywK_wgQwKJY" allow=" autoplay; "></iframe>
+
+            </div>
+            <div id="container" class="overflow-y-scroll m-2 flex h-[550px] justify-end ">
+                <ul class=" ">
+                    <li onclick="showIframe('iframe1')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">CSS - What is selectors? | CSS Lecture 1</li>
+                    <li onclick="showIframe('iframe2')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Properties in CSS | CSS Lecture 2</li>
+                    <li onclick="showIframe('iframe3')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Understanding Box Model | Styling List and Tables | CSS Lecture 3</li>
+                    <li onclick="showIframe('iframe4')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Understanding Cascading , Specificity and Inheritance | CSS Lecture 4</li>
+                    <li onclick="showIframe('iframe5')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Styling Forms in CSS | Web Development Course | Lecture 5 of CSS</li>
+                    <li onclick="showIframe('iframe6')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Challenge #1 | Forms</li>
+                    <li onclick="showIframe('iframe7')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Debugging in CSS | Lecture 6 of CSS Course</li>
+                    <li onclick="showIframe('iframe8')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">What is Responsiveness? | CSS Course | Lecture 7</li>
+                    <li onclick="showIframe('iframe9')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Responsiveness Challenge | CSS </li>
+                    <li onclick="showIframe('iframe10')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Floats & Position Properties | CSS Lecture 8</li>
+                    <li onclick="showIframe('iframe11')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Challenge 3: Float | CSS Course</li>
+                    <li onclick="showIframe('iframe12')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Challenge #4 : Positions | CSS Course</li>
+                    <li onclick="showIframe('iframe13')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Learn Flexbox Under 25mins | CSS Course | Lecture 9</li>
+                    <li onclick="showIframe('iframe14')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Flexbox-1 Challenge | CSS Course</li>
+                    <li onclick="showIframe('iframe15')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Flexbox-2 Challenge | CSS Course</li>
+                    <li onclick="showIframe('iframe16')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Flexbox-3 Challenge | CSS Course</li>
+                    <li onclick="showIframe('iframe17')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">CSS Grids | Lecture 10</li>
+                    <li onclick="showIframe('iframe18')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">CSS Grid-1 Challenge #8</li>
+                    <li onclick="showIframe('iframe19')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">CSS Grid -2 Challenge - 9 </li>
+                    <li onclick="showIframe('iframe20')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Learn Animations in CSS | Lecture 11</li>
+                    <li onclick="showIframe('iframe21')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Adding CSS to Mega Project</li>
+                    <li onclick="showIframe('iframe22')" class="p-5 text-white bg-slate-500 rounded-lg m-4 cursor-pointer hover:bg-slate-700">Updating Design of Mega Project | CSS Course</li>
+
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="Courses.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+    <link rel="manifest" href="logo/site.webmanifest">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Notes</title>
+</head>
+
+<body class="bg-gradient-to-t bg-slate-900 ">
+    <main>
+        <div class="text-center flex text-white m-10 text-4xl">
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="home()" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-8 text-slate-500 cursor-pointer hover:text-white" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            <p class="ml-[43%]">Notes</p>
+        </div>
+        <p class=" text-2xl m-8 text-slate-400 p-2">Programming Languages</p>
+        <section class="flex  m-8">
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center " download><img src="./images/java_logo.png" alt="" class="w-32 mx-auto">
+                <p class="text-xl  text-gray-600">Java</p>
+                <input type="button" value="Notes" onclick="javanotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%]  transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center "><img src="./images/c_logo.png" alt="" class="w-20 mt-2 mx-auto">
+                <p class="text-xl  text-gray-600">C</p>
+                <input type="button" value="Notes" onclick="cnotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%]  transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center "><img src="./images/python_logo.png" alt="" class="w-32 -mt-2 mx-auto">
+                <p class="text-xl  text-gray-600">Python</p>
+                <input type="button" value="Notes" onclick="pythonnotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%]  transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6  text-center cursor-pointer">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6  text-center cursor-pointer">
+            </a>
+
+        </section>
+        <p class="text-2xl m-8 text-slate-400 p-2 ">Web Development</p>
+        <section class="flex m-8">
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center cursor-pointer">
+                <img src="./images/html_logo.png" alt="" class="w-28 mt-3 mx-auto">
+                <p class="text-xl  text-gray-600">HTML</p>
+                <input type="button" value="Notes" onclick="htmlnotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%]  transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center cursor-pointer">
+                <img src="./images/css_logo.png" alt="" class="w-40  mx-auto">
+                <p class="text-xl -mt-3   text-gray-600">CSS</p>
+                <input type="button" value="Notes" onclick="cssnotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%]  transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center cursor-pointer">
+                <img src="./images/js_logo.png" alt="" class="w-32 mt-4 mx-auto">
+                <p class="text-xl  text-gray-600 mt-4">Javascript</p>
+                <input type="button" value="Notes" onclick="jsnotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%]  transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center cursor-pointer">
+                <img src="./images/react_logo.png" alt="" class="w-24 mt-3 mx-auto">
+                <p class="text-xl  text-gray-600">React</p>
+                <input type="button" value="Notes" onclick="reactnotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%]  transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center cursor-pointer">
+                <img src="./images/nodejs_logo.png" alt="" class="w-28 -mt-2 mx-auto">
+                <p class="text-xl  text-gray-600">Node JS</p>
+                <input type="button" value="Notes" onclick="nodejsnotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%]  transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+
+        </section>
+
+        <p class="text-2xl m-8 text-slate-400 p-2 ">Other</p>
+        <section class="flex m-8">
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center cursor-pointer">
+                <img src="./images/sql_logo.png" alt="" class="w-20 mt-3 mx-auto">
+                <p class="text-xl  text-gray-600 mt-2">DBMS & SQL</p>
+                <input type="button" value="Notes" onclick="dbmsnotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%]  transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6 bg-gradient-to-t to-indigo-900 from-slate-800 text-gray-700 text-center cursor-pointer">
+                <img src="./images/ds_logo.png" alt="" class="w-32 mt-2 mx-auto">
+                <p class="text-xl  text-gray-600 mt-2">Data Structures</p>
+                <input type="button" value="Notes" onclick="dsnotes()" class="animate-border bg-gradient-to-r from-indigo-900 via-gray-500 to-slate-700 bg-[length:400%_400%] transition ease-in-out delay-150 hover: -translate-y-0 hover:scale-110 duration-300 text-xl m-2 cursor-pointer text-white px-5 py-1 bg-slate-500 rounded-lg">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6  text-center cursor-pointer">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6  text-center cursor-pointer">
+            </a>
+            <a class="text-3xl w-1/5  rounded-2xl m-3 p-6  text-center cursor-pointer">
+            </a>
+        </section>
+
+    </main>
+</body>
+
+</html>
