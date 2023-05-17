@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .bg-animation {
     position: relative;
 }
@@ -26,24 +27,12 @@
     --angle: 0deg;
     border-radius: 0.6rem;
     padding-top: 2%;
-    @apply absolute inset-0 z-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
-}
-
-@property --angle {
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false;
+    animation: rotate-animation 5s linear infinite;
+    background: linear-gradient(var(--angle), #5b58b4, #407cff, #a34c77, #5355ba);
 }
 
 @keyframes rotate-animation {
     to {
-        --angle: 360deg
-    }
-}
-
-@supports (background: paint(houdini)) {
-    .bg-animation:after {
-        animation: rotate-animation 5s linear infinite;
-        background: linear-gradient(var(--angle), #5b58b4, #407cff, #a34c77, #5355ba);
+        --angle: 360deg;
     }
 }
